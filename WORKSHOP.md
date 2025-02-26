@@ -2,7 +2,7 @@
 
 1. Create a fresh Laravel project for your presentation:
    ```bash
-   composer create-project --prefer-dist laravel/laravel laravel-presentation
+   composer create-project --prefer-dist laravel/laravel laratest
    ```
 
 2. Set up the database in the `.env` file:
@@ -10,14 +10,14 @@
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=laravel_test
+   DB_DATABASE=laratest
    DB_USERNAME=root
    DB_PASSWORD=
    ```
 
 3. Create the database:
    ```bash
-   mysql -127.0.0.1 -u root -e "CREATE DATABASE IF NOT EXISTS laravel_workshop;"
+   mysql -127.0.0.1 -u root -e "CREATE DATABASE IF NOT EXISTS laratest;"
    ```
 ## or you can just set it up manually using phpmyadmin
 
