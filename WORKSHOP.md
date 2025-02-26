@@ -249,7 +249,7 @@
    @endsection
    ```
 
-### 7. Implementing Update Functionality (10 minutes)
+### 7. Implementing Update Functionality
 
 1. Add the edit and update methods to PostController:
    ```php
